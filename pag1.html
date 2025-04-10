@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Torta - Producto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .product-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 24px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header h2 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .heart {
+      font-size: 24px;
+      color: #999;
+      cursor: pointer;
+    }
+
+    .description {
+      margin: 12px 0 20px;
+      color: #555;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .buttons button {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 20px;
+      background-color: #e0e0e0;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .buttons button.active {
+      background-color: #27c36d;
+      color: white;
+    }
+
+    .availability {
+      margin-bottom: 20px;
+    }
+
+    .availability h4 {
+      margin-bottom: 8px;
+      color: #27c36d;
+    }
+
+    .icons {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .time {
+      display: inline-block;
+      background-color: #27c36d;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .price-contact {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    .price {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .contact-button {
+      background-color: #27c36d;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .footer {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-around;
+      padding: 12px;
+      background-color: #27c36d;
+      border-top: 1px solid #ccc;
+      border-radius: 0 0 16px 16px;
+    }
+
+    .footer span {
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <img src="https://i.imgur.com/80GIDJ7.jpg" alt="Torta" class="product-image">
+
+  <div class="product-details">
+    <div class="header">
+      <h2>Torta</h2>
+      <div class="heart">♡</div>
+    </div>
+
+    <p class="description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies, lorem ut dictum faucibus, tortor neque cursus arcu.
+    </p>
+
+    <div class="buttons">
+      <button>Jamón</button>
+      <button class="active">Asada</button>
+      <button>Chorizo</button>
+    </div>
+
+    <div class="availability">
+      <h4>🕒 Horario de disponibilidad</h4>
+      <div class="icons">🟢 🥪 📅 📍 ✅ 📞</div>
+      <div class="time">8:30 am - 4:00 pm</div>
+    </div>
+
+    <div class="price-contact">
+      <div class="price">$45</div>
+      <button class="contact-button">Contactar con el vendedor</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>🏠</span>
+    <span>🔍</span>
+    <span>💚</span>
+    <span>👤</span>
+  </div>
+</div>
+
+</body>
+</html>
