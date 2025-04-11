@@ -1,0 +1,62 @@
+:root {
+  --background: #ffffff;
+  --on-background: #000000;
+
+  --card: #ffffff;
+  --on-card: #000000;
+
+  --primary: #27c36d;
+  --on-primary: #000000;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--on-background);
+  font-family: 'Roboto', sans-serif;
+}
+
+.button {
+  background-color: var(--primary);
+  color: var(--on-primary);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button__text {
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #1da95b;
+}
+
+.button:active {
+  background-color: #1a8e4a;
+}
+
+.card {
+  background-color: var(--card);
+  color: var(--on-card);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card__content {
+  font-size: 16px;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
