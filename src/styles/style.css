@@ -39,7 +39,7 @@ body {
   color: var(--on-primary);
   width: 50%;
   height: 100%;
-  border-radius: 0 0 1.5rem 1.5rem;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .header__title {
@@ -81,6 +81,7 @@ body {
   position: fixed;
   bottom: 0;
   inset-inline: 0;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .footer svg {
