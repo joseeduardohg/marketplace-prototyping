@@ -48,7 +48,7 @@ const productCardTemplate = `
 `;
 
 productCard.innerHTML = productCardTemplate;
-for (let i = 0; i < 14; i++) {
+for (let i = 0; i < 7 * 2; i++) {
   const clone = productCard.content.cloneNode(true) as DocumentFragment;
   productContainer.appendChild(clone);
 }
