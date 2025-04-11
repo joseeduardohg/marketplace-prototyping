@@ -16,10 +16,7 @@ const productCardTemplate = `
 
             <div class="card__content">
               <h2 class="card__heading">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium consequuntur hic magni necessitatibus aut quisquam
-                odit ducimus consectetur perspiciatis iure dolores aliquam id
-                fuga vel earum, corrupti accusamus? Sed, aliquid!
+                Producto
               </h2>
 
               <div>
