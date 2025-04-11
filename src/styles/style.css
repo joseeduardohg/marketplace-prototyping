@@ -3,6 +3,7 @@
   --on-background: #000000;
 
   --card: #ffffff;
+  --card-dim: #f0f0f0;
   --on-card: #000000;
 
   --border: #e0e0e0;
@@ -58,6 +59,24 @@ body {
 
 .button:active {
   background-color: #1a8e4a;
+}
+
+.pill {
+  display: inline;
+  background-color: var(--card-dim);
+  color: var(--on-card);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.pill--active {
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+
+.pill__text {
+  font-weight: bold;
 }
 
 .input__field {
