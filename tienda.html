@@ -11,7 +11,47 @@
     <title>Tienda</title>
   </head>
   <body>
-    <header class="header"></header>
+    <header class="header">
+      <div class="header__title">
+        <p>Hola, ¿qué comprarás hoy?</p>
+      </div>
+      <div class="header__menu">
+        <div class="header__categories">
+          <p class="header__heading">Categorías</p>
+
+          <ul class="header__tags">
+            <li class="pill pill-active">Todo</li>
+            <li class="pill">Comida</li>
+            <li class="pill">Ropa</li>
+            <li class="pill">Accesorios</li>
+            <li class="pill">Dulces</li>
+          </ul>
+        </div>
+        <div class="header__actions">
+          <button class="button">Vender</button>
+
+          <div class="input">
+            <input class="input__field" placeholder="Buscar" />
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="input__icon lucide lucide-search-icon lucide-search"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <main>
       <div class="container">

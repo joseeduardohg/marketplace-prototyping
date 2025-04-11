@@ -5,6 +5,8 @@
   --card: #ffffff;
   --on-card: #000000;
 
+  --border: #e0e0e0;
+
   --primary: #27c36d;
   --on-primary: #000000;
 }
@@ -56,4 +58,44 @@ body {
 
 .button:active {
   background-color: #1a8e4a;
+}
+
+.input__field {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.input {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  background-color: var(--card);
+  color: var(--on-card);
+  border: 1px solid var(--border);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.input:hover,
+.input:focus,
+.input:active {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.input::placeholder {
+  color: var(--on-card);
+  opacity: 0.5;
+}
+
+.input:disabled {
+  background-color: #f0f0f0;
+  color: #a0a0a0;
+  cursor: not-allowed;
 }
