@@ -36,27 +36,3 @@ body {
 .button:active {
   background-color: #1a8e4a;
 }
-
-.card {
-  background-color: var(--card);
-  color: var(--on-card);
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card__title {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.card__content {
-  font-size: 16px;
-}
-
-.card__footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}

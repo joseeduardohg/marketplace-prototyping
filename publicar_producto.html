@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicar producto</title>
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="/src/styles/editar_producto.css">
+</head>
+
+<body>
+    <div class="header">
+        Hola, ¿qué venderás?
+    </div>
+
+    <form class="form-container">
+        <div class="form-row">
+            <input type="text" class="input" placeholder="Nombre del producto">
+            <input type="text" class="input" placeholder="Precio">
+        </div>
+        <div class="form-row">
+            <input type="text" class="input" placeholder="Descripción">
+            <input type="text" class="input" placeholder="Número de WhatsApp">
+        </div>
+        <div class="form-row">
+            <input type="text" class="input" placeholder="Opciones del producto (si aplica)">
+            <label class="upload">
+                Subir fotos
+                <span class="upload-icon">⬆️</span>
+                <input type="file">
+            </label>
+        </div>
+        <div class="disponibilidad">
+            <div>Disponibilidad</div>
+            <div class="dias">
+                <label class="dia-checkbox">
+                    <input type="checkbox" name="dias" value="L">
+                    <span class="dia">L</span>
+                </label>
+                <label class="dia-checkbox">
+                    <input type="checkbox" name="dias" value="M">
+                    <span class="dia">M</span>
+                </label>
+                <label class="dia-checkbox">
+                    <input type="checkbox" name="dias" value="X">
+                    <span class="dia">X</span>
+                </label>
+                <label class="dia-checkbox">
+                    <input type="checkbox" name="dias" value="J">
+                    <span class="dia">J</span>
+                </label>
+                <label class="dia-checkbox">
+                    <input type="checkbox" name="dias" value="V">
+                    <span class="dia">V</span>
+                </label>
+            </div>
+            
+            <div class="horario">
+                <label>De:
+                    <input type="time" name="hora_inicio">
+                </label>
+                <label>A:
+                    <input type="time" name="hora_fin">
+                </label>
+            </div>
+            
+        </div>
+        <div class="acciones">
+            <button type="submit" class="button">Publicar</button>
+        </div>
+    </form>
+
+    <div class="footer">
+        <div class="icon">🏠</div>
+        <div class="icon">🔍</div>
+        <div class="icon">❤️</div>
+        <div class="icon">👤</div>
+    </div>
+</body>
+
+</html>
