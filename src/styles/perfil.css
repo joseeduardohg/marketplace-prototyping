@@ -1,16 +1,9 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
-
 .profile {
   max-width: 800px;
   margin: 40px auto;
   background-color: #fff;
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
   padding: 24px;
 }
 
@@ -29,7 +22,7 @@ body {
 }
 
 .profile__name {
-  margin: 0;
+  margin-bottom: 0.5rem;
   font-size: 26px;
 }
 
@@ -46,6 +39,7 @@ body {
   align-items: center;
   margin: 10px 0;
   font-size: 16px;
+  gap: 1.5rem;
   color: #444;
 }
 
@@ -77,31 +71,4 @@ body {
 .profile__stat-label {
   margin-top: 4px;
   color: #666;
-}
-
-.profile__edit-btn {
-  display: block;
-  margin: 30px auto 0;
-  background-color: #27c36d;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 12px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.footer {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-around;
-  padding: 12px;
-  background-color: #27c36d;
-  border-radius: 0 0;
-}
-
-.footer svg {
-  stroke: white;
-  width: 28px;
-  height: 28px;
 }
