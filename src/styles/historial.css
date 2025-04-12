@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  text-align: center;
+  border-radius: 0 0 1rem 1rem;
+  font-size: 1.5rem;
+}
+
+.section__container__historial {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: 15rem;
+  margin-left: 15rem;
+}
+
+.producto {
+  width: 90%;
+  background-color: #f1f3f2;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.producto h2 {
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.producto p {
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
