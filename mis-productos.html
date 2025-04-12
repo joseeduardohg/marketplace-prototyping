@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="stylesheet" href="/src/styles/misproductos.css" />
+
+    <title>Mis Productos</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_barra">
+        <h1 class="header__title">Mis productos</h1>
+      </div>
+
+      <div class="header__actions">
+        <button class="header__button">Vender</button>
+        <div class="header__search">
+          <input type="text" placeholder="Buscar" class="header__input" />
+          <span class="header__search-icon"
+            ><img src="search.svg" alt=""
+          /></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="product-card">
+        <div class="product-card__image-container">
+          <img class="product-card__image" />
+        </div>
+        <div class="product-card__details">
+          <h2 class="product-card__title">Torta</h2>
+          <p class="product-card__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+            ultricies, lorem ut dictum faucibus, tortor neque cursus arcu, at
+            scelerisque libero justo ut urna.
+          </p>
+          <div class="product-card__actions">
+            <span class="product-card__price">$45</span>
+            <button class="button">Editar</button>
+            <button class="button button--secondary">Eliminar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span class="footer__icon"><img src="house.svg" alt="" /></span>
+      <span class="footer__icon"><img src="search.svg" alt="" /></span>
+      <span class="footer__icon"><img src="heart.svg" alt="" /></span>
+      <span class="footer__icon"><img src="user-round.svg" alt="" /></span>
+    </div>
+  </body>
+</html>
