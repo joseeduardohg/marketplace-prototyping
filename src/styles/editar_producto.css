@@ -121,16 +121,14 @@
 .acciones {
   display: flex;
   gap: 20px;
-  justify-content: center;
   margin-top: 20px;
+}
+
+.acciones button {
+  width: 50%;
 }
 
 .icon {
   font-size: 20px;
   color: var(--on-primary);
-}
-
-#publicar,
-#eliminar {
-  width: 100%;
 }
