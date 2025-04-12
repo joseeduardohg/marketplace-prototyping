@@ -1,0 +1,134 @@
+.form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  text-align: center;
+  border-radius: 0 0 1rem 1rem;
+  font-size: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.input {
+  flex: 1;
+  background-color: #f3f4f4;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  min-width: 300px;
+}
+
+.upload {
+  flex: 1;
+  background-color: #f3f4f4;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.upload input[type='file'] {
+  display: none;
+}
+
+.upload-icon {
+  font-size: 20px;
+}
+
+.disponibilidad {
+  background-color: #f3f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  font-size: 16px;
+}
+
+.horarios {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dia-checkbox input[type='checkbox'] {
+  display: none;
+}
+
+.dias {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.dia {
+  background-color: #ddd;
+  color: #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dia--active {
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+
+.dia-checkbox input[type='checkbox']:checked + .dia {
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+
+.dia:hover {
+  background-color: #b4d6a3;
+}
+
+.dia.activo {
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+
+.horario {
+  font-size: 14px;
+  color: #000;
+  margin-top: 5px;
+}
+
+.acciones {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.acciones button {
+  width: 50%;
+}
+
+.icon {
+  font-size: 20px;
+  color: var(--on-primary);
+}
