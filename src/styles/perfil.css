@@ -72,3 +72,10 @@
   margin-top: 4px;
   color: #666;
 }
+
+.profile__actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
